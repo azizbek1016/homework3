@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 540px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: blue;
+    height: 50px;
+
+}
+aside {
+width: 150px;
+background-color: red;
+height: 100px;
+float: left;
+}
+main {
+    width: 350px;
+    background-color: yellow;
+    height: 200px;
+    float: right;
+}
+footer {
+    clear: right;
+    height: 50px;
+    background-color: green;
+}
